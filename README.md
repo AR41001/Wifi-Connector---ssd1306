@@ -37,8 +37,9 @@ Installation
     Run the following command to build and run the program:
 
 Bash
-
-cargo run
+    
+    cargo build
+    cargo run
 
 Use code with caution.
 Usage
