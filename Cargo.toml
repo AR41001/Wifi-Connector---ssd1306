@@ -1,0 +1,19 @@
+[package]
+name = "wifi_menu_ssd1306"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-graphics = "0.6.0"
+linux-embedded-hal = "0.3.0"
+machine-ip = "0.2.1"
+ssd1306 = "0.4.0"
+rppal = "0.16.1"
+u8g2-fonts = "0.4.0"
+nanomsg = "0.7.2"
+ctrlc = "3.3.0"
+signal-hook = "0.3.4"
+env_logger = "0.11.1"
+log = "0.4.20"
